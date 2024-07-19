@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.2",
+  "name": "zendesk-extension",
+  "permissions": ["scripting", "tabs", "webNavigation"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "./background.js"
+  }
+}
